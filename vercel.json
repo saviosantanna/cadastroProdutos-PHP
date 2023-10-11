@@ -5,6 +5,10 @@
     }
   },
   "routes": [
-    { "src": "/(.*)",  "dest": "/api/index.php" }
+    { "src": "/(.*)",  "dest": "/api/index.php" },
+    { "src": "/(.*)",  "dest": "/api/consulta.php" },
+    { "src": "/(.*)",  "dest": "/api/cadastro.php" },
+    { "src": "/(.*)",  "dest": "/api/header.php" },
+    { "src": "/(.*)",  "dest": "/api/footer.php" }
   ]
 }
