@@ -1,3 +1,8 @@
+<?php 
+if(!isset($_SESSION)){
+    session_start();
+}
+?>
 <!DOCTYPE html>
 <html lang="en" class="min-vh-100">
 
@@ -26,9 +31,6 @@
 
         <!-- Mostrar botão de sair se o usuário estiver logado -->
         <?php 
-        if(!isset($_SESSION)){
-            session_start();
-        }
         if(isset($_SESSION['login'])){
         ?>
         <div class="me-4 m-2">
