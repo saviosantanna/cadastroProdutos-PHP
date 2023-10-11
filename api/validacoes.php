@@ -1,4 +1,7 @@
 <?php 
+if(!isset($_SESSION)){
+    session_start();
+}
 
 function validaNome($nome)
 {
@@ -24,6 +27,20 @@ function validaLogin($u, $p, $e, $s)
     } else {
         return 'invalid_email';
     }
+}
+
+function redirectIndex()
+{
+    echo "<script type=\"text/javascript\">
+        window.location.href='index.php';
+        </script>";
+}
+
+function redirectConsulta()
+{
+    echo "<script type=\"text/javascript\">
+        window.location.href='consulta.php';
+        </script>";
 }
 
 ?>

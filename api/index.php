@@ -12,7 +12,7 @@ $senha = 'admin123';
 if (isset($_POST['btn-clear'])) {
     $user = "";
     $password = "";
-    header("Location: index.php");
+    redirectIndex();
 }
 
 if (isset($_POST['btn-login'])) {
@@ -24,7 +24,7 @@ if (isset($_POST['btn-login'])) {
         if ($msg === true) {
             session_start();
             $_SESSION['login'] = true;
-            header("Location: consulta.php");
+            redirectConsulta();
         } else {
             if ($msg === 'invalid_email') {
                 $msg = 'O e-mail inserido é inválido, favor verificar!';
