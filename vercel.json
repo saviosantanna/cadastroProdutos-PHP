@@ -3,5 +3,15 @@
     "api/*.php": {
       "runtime": "vercel-php@0.6.0"
     }
+  },
+  "routes": [
+    { "src": "/api/index", "dest": "/api/index.php" },
+    { "src": "/api/consulta", "dest": "/api/consulta.php" },
+    { "src": "/api/cadastro", "dest": "/api/cadastro.php" }
+  ],
+  "build": {
+    "env": {
+      "NOW_PHP_DEBUG": "1"
+    }
   }
 }
