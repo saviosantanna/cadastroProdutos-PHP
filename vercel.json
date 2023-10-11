@@ -1,4 +1,9 @@
 {
+  "version": 2,
+  "builds": [
+    {"src": "/api/index.php", "use": "vercel-php@0.6.0"}
+    {"src": "/api/consulta.php", "use": "vercel-php@0.6.0"}
+  ],
   "routes": [
     {
       "src": "/api/consulta",
