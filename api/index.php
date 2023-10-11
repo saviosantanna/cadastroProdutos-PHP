@@ -22,7 +22,7 @@ if (isset($_POST['btn-login'])) {
         $msg = validaLogin($user, $password, $email, $senha);
 
         if ($msg === true) {
-            session_start();
+            //session_start();
             $_SESSION['login'] = true;
             redirectConsulta();
         } else {
