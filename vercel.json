@@ -2,7 +2,13 @@
   "version": 2,
   "builds": [
     {"src": "/api/index.php", "use": "vercel-php@0.6.0"},
-    {"src": "/api/consulta.php", "use": "vercel-php@0.6.0"}
+    {"src": "/api/consulta.php", "use": "vercel-php@0.6.0"},
+    {"src": "/api/header.php", "use": "vercel-php@0.6.0"},
+    {"src": "/api/footer.php", "use": "vercel-php@0.6.0"},
+    {"src": "/api/validacoes.php", "use": "vercel-php@0.6.0"},
+    {"src": "/api/checkLogout.php", "use": "vercel-php@0.6.0"},
+    {"src": "/api/checkLogin.php", "use": "vercel-php@0.6.0"},
+    {"src": "/api/cadastro.php", "use": "vercel-php@0.6.0"}
   ],
   "routes": [
     {
