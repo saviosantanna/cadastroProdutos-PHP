@@ -19,7 +19,7 @@ if(!isset($_SESSION)){
 
     <link rel="shortcut icon" href="../img/favicon-saviosantanna.png" type="image/x-icon">
 
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="user/css/style.css">
 
 </head>
 
