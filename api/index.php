@@ -12,7 +12,7 @@ $senha = 'admin123';
 if (isset($_POST['btn-clear'])) {
     $user = "";
     $password = "";
-    redirectIndex();
+    //redirectIndex();
 }
 
 if (isset($_POST['btn-login'])) {

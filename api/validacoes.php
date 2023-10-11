@@ -32,14 +32,14 @@ function validaLogin($u, $p, $e, $s)
 function redirectIndex()
 {
     echo "<script type=\"text/javascript\">
-        window.location.href='index.php';
+        window.location.href='/api/index.php';
         </script>";
 }
 
 function redirectConsulta()
 {
     echo "<script type=\"text/javascript\">
-        window.location.href='consulta.php';
+        window.location.href='/api/consulta.php';
         </script>";
 }
 
