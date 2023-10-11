@@ -17,16 +17,16 @@ if(!isset($_SESSION)){
     
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
-    <link rel="shortcut icon" href="/img/favicon-saviosantanna.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../img/favicon-saviosantanna.png" type="image/x-icon">
 
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 
 </head>
 
 <body class="d-flex flex-column min-vh-100 bg-default m-0">
     <nav class="navbar navbar-expand-lg bg-light fw-bold d-flex justify-content-between">
         <div class="m-2 ms-5">
-            <img src="/img/Savio-Santanna_logo-sem fundo.png" style="width: 300px;" alt="">
+            <img src="../img/Savio-Santanna_logo-sem fundo.png" style="width: 300px;" alt="">
         </div>
 
         <!-- Mostrar botão de sair se o usuário estiver logado -->
